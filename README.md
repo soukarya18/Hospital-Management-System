@@ -4,20 +4,29 @@ A comprehensive Hospital Management System built using Java, Spring Boot, Hibern
 # Features
 ## Patient Management
 Register new patients under general queue or specific doctor.
+
 Update patient appointment details (change doctor or department).
+
 View appointment and doctor assignment details.
+
 Cancel appointments with automatic slot management.
 
 ## Doctor Management
 Register new doctors and assign them to departments.
+
 Update doctor profiles and department assignments.
+
 View all doctors by department.
+
 Delete doctor profiles with automatic reassignment of patients to other doctors.
 
 ## System Architecture
 One-to-Many relationship: A doctor can have multiple patients.
+
 Many-to-One relationship: Each patient is assigned to one doctor.
+
 Service-oriented architecture (Controller → Service → Repository) for modularity and maintainability.
+
 RESTful APIs exposed on embedded Tomcat (port 8090).
 
 ## Technologies Used
